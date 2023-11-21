@@ -1,0 +1,29 @@
+body {
+    background: #262628;
+}
+
+.text {
+    color: white;
+    font-size: 32px;
+}
+
+.block {
+    position: fixed;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+    min-height: 100px;
+    background: white;
+    border-radius: 10px;
+}
+
+.block__circle {
+    position: relative;
+    min-height: 100px;
+    background-color: rgb(245, 98, 98);
+    border-radius: 50%; 
+    width: 100px;
+    height: 100px;
+    bottom: 50px;
+    left: 12.5%
+}
